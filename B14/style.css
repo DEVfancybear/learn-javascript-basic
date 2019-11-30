@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.thanhxanh {
+    height: 100px;
+    background: #3b5998;
+    padding-left: 800px;
+}
+
+._1khoi {
+    float: left;
+    position: relative;
+}
+
+.dehienthi {
+    position: absolute;
+    width: 201px;
+    font-size: 14px;
+    transition: 0.4s;
+    right: 3px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.declick {
+    padding: 10px 16px;
+    transition: 0.4s;
+}
+
+.conchuot {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.dehienthi:after {
+    content: '';
+    position: absolute;
+    top: -20px;
+    width: 0px;
+    height: 0px;
+    border: 11px rgba(255, 215, 0, 0) solid;
+    border-bottom-color: black;
+    right: 8px;
+}
+
+.mautrang {
+    color: white;
+}
+.ra {
+    opacity: 1;
+    visibility: visible;
+}

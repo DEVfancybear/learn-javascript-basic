@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.thanhxanh {
+    height: 43px;
+    background: #3b5998;
+
+}
+.motphantu {
+    position: relative;
+    float: right;
+    margin-right: 200px;
+    margin-top: 7px;
+
+}
+
+.tamgiac {
+    color: white;
+    font-size: 25px;
+    transition: 0,4s;
+    color: black;
+}
+
+.danhsach {
+    position: absolute;
+    top: 25px;
+    right: -13px;
+    width: 200px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+/*tạo ra mũi tên*/
+
+/*.danhsach:after {
+    content: '';
+    position: absolute;
+    top: -20px;
+    width: 0px;
+    height: 0px;
+    border: 11px rgba(255,215,0,0) solid;
+    border-top-color: black ;
+    right: 8px;
+}*/
+
+.ra {
+    opacity: 1;
+    visibility: visible;
+}
