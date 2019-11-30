@@ -1,0 +1,70 @@
+html , body {
+    height: 100%;
+    overflow-x: hidden;/* không có thanh cuộc ngang*/
+    background: gray;
+}
+.noidungto {
+    height: 100%;
+    transition: ease-in-out 1.8s; 
+    box-sizing: border-box; /*giữ nguyên độ rộng là 100%*/
+    perspective: 2200px; /*khung nhìn để tạo hiệu ứng 3d*/
+}
+li.list-group-item {
+    background: none;
+    text-transform: uppercase;
+    color: white;
+}
+h3.display-3.text-lg-center {
+    font-size: 35px;
+    padding: 20px;
+    color: white;
+}
+.menutrai {
+    height: 100%;
+    background: #5cb85c;
+    width: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.4s;
+}
+.nut {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.den {
+    position: fixed;;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: rgba(0,0,0,0.42);
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transition: 0.4s;
+    opacity: 0;
+    visibility: hidden;
+}
+.menutrai.vetrai {
+    transform: translateX(-100%);
+}
+.hienlen {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dichphai {
+    transform: translateX(300px);
+}
+.mautrang {
+    width: 100%;
+    height: 100%;
+    background: white;
+    transition: 0.4s;
+    transform-origin: 100% 0;
+}
+.trangquay {
+    transform: rotateY(-15deg); /*hiệu ứng 3d*/
+}
